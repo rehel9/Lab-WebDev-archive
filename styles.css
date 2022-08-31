@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Alata", sans-serif;
+  background-image: url(./resources/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 1%;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+a {
+  margin: auto 10px;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  height: 150px;
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.coolSquares {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.blob {
+  padding: 2rem;
+  background-image: linear-gradient(to bottom left, #4d8c57, #f8de7e);
+  border-radius: 27% 73% 6% 94% / 47% 36% 64% 53%;
+}
+
+.evaluation1,
+.evaluation2 {
+  font-size: 25px;
+  border: 1px black solid;
+  margin: 10%;
+  padding: 3rem;
+  height: auto;
+  width: auto;
+  opacity: 0.8;
+  background-image: linear-gradient(to bottom right, #4d8c57, #f8de7e);
+}
+
+.evaluation1 {
+  align-self: flex-start;
+  border-radius: 22% 78% 79% 21% / 30% 55% 45% 70%;
+}
+
+.evaluation2 {
+  align-self: flex-end;
+  border-radius: 57% 43% 75% 25% / 30% 6% 94% 70%;
+}
+
+#acuerdos {
+  padding: 12rem;
+  background-image: linear-gradient(to bottom left, #4d8c57, #f8de7e);
+  border-radius: 0% 100% 0% 100% / 53% 33% 67% 47%;
+}
+
+.temario {
+  padding: 7rem;
+  background-image: linear-gradient(to bottom left, #4d8c57, #f8de7e);
+  border-radius: 22% 78% 14% 86% / 69% 16% 84% 31%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  opacity: 0.8;
+}
