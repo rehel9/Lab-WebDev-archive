@@ -33,7 +33,8 @@ a {
   text-align: center;
   background-color: black;
   opacity: 0.8;
-  height: 150px;
+  height: auto;
+  padding: 1rem;
 }
 
 .content {
@@ -41,7 +42,6 @@ a {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
 }
 
 .coolSquares {
@@ -59,7 +59,7 @@ a {
 
 .evaluation1,
 .evaluation2 {
-  font-size: 25px;
+  font-size: 2rem;
   border: 1px black solid;
   margin: 10%;
   padding: 3rem;
